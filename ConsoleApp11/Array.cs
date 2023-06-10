@@ -13,5 +13,13 @@ namespace ConsoleApp11
         {
             array = new int[0];
         }
+        public void Print() 
+        {
+            foreach (int element in array)
+            {
+                Console.Write(element + "\t");
+            }
+            Console.WriteLine();
+        }
     }
 }
