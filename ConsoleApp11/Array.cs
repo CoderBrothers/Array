@@ -21,5 +21,9 @@ namespace ConsoleApp11
             }
             Console.WriteLine();
         }
+	public void Clear() 
+        {
+            array = new int[0];
+        }
     }
 }
