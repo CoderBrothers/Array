@@ -8,6 +8,10 @@ namespace ConsoleApp11
 {
     internal class Array
     {
-
+        private int[] array;
+        public Array() 
+        {
+            array = new int[0];
+        }
     }
 }
